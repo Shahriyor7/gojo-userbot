@@ -1,6 +1,6 @@
 from telethon import TelegramClient, events, sync
 
-@events.register(events.NewMessage(pattern=".hello"))
+@events.register(events.NewMessage(pattern=".me"))
 async def test(event):
-	await event.edit("test")
+	await event.edit("@SHAHRIYORBEK1")
 	
