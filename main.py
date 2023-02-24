@@ -29,7 +29,9 @@ with client as darknet:
 with client as darknet:
 	darknet.add_event_handler(zeus.bombs.bombs)
 with client as darknet:
-	darknet.add_event_handler(zeus.helpp.help) 
+	darknet.add_event_handler(zeus.help.help) 
+with client as darknet:
+	darknet.add_event_handler(zeus.helpp.helpp) 
 with client as darknet:
 	darknet.add_event_handler(zeus.loading.loading) 
 with client as darknet:
