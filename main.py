@@ -29,15 +29,13 @@ with client as darknet:
 with client as darknet:
 	darknet.add_event_handler(zeus.bombs.bombs)
 with client as darknet:
-	darknet.add_event_handler(zeus.helpp.help) 
+	darknet.add_event_handler(zeus.help.help) 
 with client as darknet:
 	darknet.add_event_handler(zeus.loading.loading) 
 with client as darknet:
 	darknet.add_event_handler(zeus.emoji.itachi) 
 with client as darknet:
 	darknet.add_event_handler(zeus.dump.dump) 	
-with client as darknet:
-	darknet.add_event_handler(zeus.sexy.sexy) 
 with client as darknet:
 	darknet.add_event_handler(zeus.type.type) 
 with client as darknet:
