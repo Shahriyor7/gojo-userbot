@@ -2,7 +2,7 @@ from telethon import TelegramClient, events, sync, functions, types, Button
 
 import zeus.client
 client = zeus.client.client
-@events.register(events.NewMessage(outgoing=True, pattern=".help"))
+@events.register(events.NewMessage(outgoing=True, pattern=".helpp"))
 async def help(event):
 	await event.edit("""
 🛠 Umumiy modullar: 61
